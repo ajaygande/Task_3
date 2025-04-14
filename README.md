@@ -30,5 +30,4 @@ Dataset Attributes Used
 Order_Date, Time, Aging, Customer_Id, Gender, Device_Type, Customer_Login_type Product_Category, Product, Sales, Quantity, Discount, Profit, Shipping_Cost Order_Priority, Payment_method
 
 Screenshots
-Screenshots of all the tasks and query outputs have been included in this repository under the /screenshots folder to visualize and document the work done using MySQL Workbench.
-
+Screenshots of all the tasks and query outputs have been included in this repository to visualize and document the work done using MySQL Workbench.
