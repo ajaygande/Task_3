@@ -1,33 +1,62 @@
-# Task_3
 # SQL Operations on E-commerce Dataset (MySQL Workbench Project)
 
-This project showcases a series of SQL operations performed on an E-commerce dataset using MySQL Workbench. The goal was to explore, analyze, and optimize data for meaningful insights.
-All tasks were executed using SQL queries, and screenshots of the execution and results are included in this repository for reference
+This project showcases a series of **SQL operations** performed on an **E-commerce dataset** using **MySQL Workbench**.  
+The goal was to explore, analyze, and optimize data to derive **actionable insights**.  
 
-Tasks Performed:
+All tasks were executed using SQL queries, and **screenshots of query results** are included in this repository for reference.
 
-Basic SQL Queries
-Used SELECT, WHERE, ORDER BY, GROUP BY clauses to explore data and filter based on customer behavior, product category, and order priority.
+---
 
-JOINS (INNER, LEFT, RIGHT)
-Simulated joining the orders table with hypothetical customers and products tables to demonstrate different types of joins and their outputs.
+## Tasks Performed
 
-Subqueries
-Used subqueries to extract specific data insights, such as orders with sales above average, high-profit orders, and more.
+### Basic SQL Queries
+- Used `SELECT`, `WHERE`, `ORDER BY`, and `GROUP BY` clauses to explore data.
+- Analyzed customer behavior, product categories, and order priorities.
 
-Aggregate Functions
-Calculated totals and averages using SUM() and AVG() for sales, profits, and discounts to perform sales performance analysis.
+### JOINS (INNER, LEFT, RIGHT)
+- Joined the `orders` table with a hypothetical `customers` table.
+- Demonstrated `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN` to show different join results and use cases.
 
-Views for Analysis
-Created reusable views like HighPriorityOrders and ProductCategorySalesSummary for easier analysis of high-priority orders and category-wise performance.
+### Subqueries
+- Used subqueries to extract insights such as:
+  - Customers with total sales above average.
+  - Orders with high profits or discounts.
 
-Indexes for Optimization
-Added indexes on frequently used columns (Customer_Id, Product_Category, Order_Priority, Payment_method) to improve query speed and optimize performance.
+### Aggregate Functions
+- Applied `SUM()`, `AVG()`, and `COUNT()` functions to analyze:
+  - Sales performance
+  - Average profits
+  - Number of orders
 
-Also demonstrated multi-column indexes and explained indexing strategy.
+### Views for Analysis
+- Created reusable SQL **views** like:
+  - `HighPriorityOrders`
+  - `ProductCategorySalesSummary`
+- Made recurring analysis faster and cleaner.
 
-Dataset Attributes Used
-Order_Date, Time, Aging, Customer_Id, Gender, Device_Type, Customer_Login_type Product_Category, Product, Sales, Quantity, Discount, Profit, Shipping_Cost Order_Priority, Payment_method
+### Indexes for Optimization
+- Created **indexes** on frequently used columns:
+  - `Customer_Id`, `Product_Category`, `Order_Priority`, `Payment_method`
+- Demonstrated how indexing improves **query performance**.
+- Included example of **multi-column indexes** and indexing strategies.
 
-Screenshots
-Screenshots of all the tasks and query outputs have been included in this repository to visualize and document the work done using MySQL Workbench.
+---
+
+## Dataset Attributes Used
+
+- `Order_Date`, `Time`, `Aging`  
+- `Customer_Id`, `Gender`, `Device_Type`, `Customer_Login_type`  
+- `Product_Category`, `Product`, `Sales`, `Quantity`, `Discount`, `Profit`, `Shipping_Cost`  
+- `Order_Priority`, `Payment_method`
+
+---
+
+## Screenshots
+
+Screenshots of all SQL tasks and output results (taken from **MySQL Workbench**) are included in the `/screenshots` folder for reference and transparency.
+
+---
+
+## Note
+
+> This is a **beginner to intermediate-level project** designed to showcase SQL skills on real-world e-commerce-style data.
